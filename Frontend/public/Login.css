@@ -1,0 +1,61 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #4e54c8, #8f94fb); /* Different background gradient */
+}
+
+.login h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.login form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly different shadow */
+    max-width: 400px;
+    background: #fff;
+    width: 100%;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #8f94fb; /* Updated border color */
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.login input:focus {
+    border-color: #4e54c8; /* Updated focus border color */
+    outline: none;
+    box-shadow: 0 0 5px rgba(78, 84, 200, 0.3); /* Updated focus shadow */
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #4e54c8; /* Updated button background */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.login button:hover {
+    background: #8f94fb; /* Updated hover background */
+    transform: scale(1.05);
+}
